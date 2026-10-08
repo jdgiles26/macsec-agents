@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "macsec-agents"
+version = "1.1.0"
+description = "Agentic CLI: an orchestrated team of agents that inventory, review, analyze, document, harden and report on CVEs and vulnerabilities for Apple silicon Macs"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "macsec-agents contributors" }]
+keywords = ["macos", "apple-silicon", "cve", "security", "agents", "vulnerability-management"]
+dependencies = [
+    "requests>=2.31",
+    "typer>=0.12",
+    "rich>=13.7",
+    "pyyaml>=6.0",
+    "jinja2>=3.1",
+    "packaging>=23.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+macsec = "macsec.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["macsec*"]
+
+[tool.setuptools.package-data]
+macsec = ["templates/*.j2"]

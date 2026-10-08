@@ -1,0 +1,32 @@
+# macsec-agents configuration (all values optional, these are the defaults)
+
+# primary Apple CVE dataset (v2 API: index + per-year files, with jsDelivr mirror fallback)
+apple_cve_index_url: "https://raw.githubusercontent.com/theevilbit/apple-cve-website/main/api/index.json"
+# legacy monolithic db, used only if the API index is unavailable
+apple_cve_db_url: "https://raw.githubusercontent.com/theevilbit/apple-cve-website/main/data/db.json"
+apple_cve_years: 0                  # 0 = all years; N = only the last N years
+cisa_kev_url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+apple_releases_url: "https://support.apple.com/en-us/100100"
+epss_url: "https://api.first.org/data/v1/epss"
+epss_batch: 50
+nvd_api_url: "https://services.nvd.nist.gov/rest/json/cves/2.0"
+nvd_api_key: ""                 # or set env NVD_API_KEY (recommended: avoids heavy throttling)
+nvd_max_products: 40
+feed_ttl: 3600
+
+offline: false
+enable_nvd: true
+enable_kev: true
+enable_apple_releases: true
+enable_epss: true
+enable_llm: true
+enable_history: true
+
+# local open-source model via Ollama (https://ollama.com)
+ollama_url: "http://127.0.0.1:11434"
+ollama_model: "llama3.1:8b"
+llm_timeout: 120
+llm_max_findings: 15
+
+output_dir: "./macsec-reports"
+report_formats: ["json", "md", "html", "sarif"]

@@ -1,0 +1,29 @@
+{
+  "hostname": "studio-mac-mini",
+  "collected_at": "2026-10-01T09:00:00Z",
+  "platform": "Darwin",
+  "is_macos": true,
+  "model": "Mac mini",
+  "chip": "Apple M2",
+  "arch": "arm64",
+  "macos_product_version": "26.6",
+  "macos_build": "25G77",
+  "macos_major": 26,
+  "kernel": "25.6.0",
+  "software": [
+    {"name": "firefox", "version": "128.0", "source": "brew-cask", "vendor": "", "raw": {}},
+    {"name": "openssl", "version": "3.3.1", "source": "brew", "vendor": "", "raw": {}}
+  ],
+  "posture": {
+    "sip_enabled": true,
+    "filevault_enabled": false,
+    "firewall_enabled": false,
+    "firewall_stealth": false,
+    "gatekeeper_enabled": true,
+    "automatic_updates": true,
+    "xprotect_version": "5299",
+    "remote_login_ssh": false,
+    "details": {}
+  },
+  "notes": []
+}

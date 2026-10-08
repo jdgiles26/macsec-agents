@@ -1,0 +1,32 @@
+{
+  "title": "CISA Known Exploited Vulnerabilities Catalog (test subset)",
+  "catalogVersion": "2026.10.01",
+  "dateReleased": "2026-10-01T00:00:00.0000Z",
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2023-41064",
+      "vendorProject": "Apple",
+      "product": "iOS and iPadOS",
+      "vulnerabilityName": "Apple Multiple Products ImageIO Buffer Overflow Vulnerability",
+      "dateAdded": "2023-09-07",
+      "shortDescription": "Apple iOS, iPadOS, and macOS contain a buffer overflow vulnerability in ImageIO when processing a maliciously crafted image, which may lead to arbitrary code execution.",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "dueDate": "2023-09-28",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": ""
+    },
+    {
+      "cveID": "CVE-2021-30860",
+      "vendorProject": "Apple",
+      "product": "Multiple Products",
+      "vulnerabilityName": "Apple Multiple Products CoreGraphics Integer Overflow Vulnerability (FORCEDENTRY)",
+      "dateAdded": "2021-09-13",
+      "shortDescription": "Apple iOS, macOS, watchOS, and iPadOS contain an integer overflow vulnerability in CoreGraphics that allows for code execution when processing a maliciously crafted PDF.",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "dueDate": "2022-02-01",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": ""
+    }
+  ]
+}

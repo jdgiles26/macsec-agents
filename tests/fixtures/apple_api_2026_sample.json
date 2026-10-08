@@ -1,0 +1,664 @@
+[
+ {
+  "campaigns": [],
+  "contest": null,
+  "credits": [
+   "Dem0ns (@天府简易信工作室), Abdelhak Kherroubi, Jasminder Pal Singh, Lehan Dilusha Jayasingha (Sri Lanka)",
+   "Lehan Dilusha Jayasingha (Sri Lanka), Jasminder Pal Singh, Dem0ns (@天府简易信工作室), Abdelhak Kherroubi"
+  ],
+  "cve": "CVE-2026-20683",
+  "cvss": 7.1,
+  "exploited": false,
+  "first_fixed": "2026-09-14",
+  "fixes": [
+   {
+    "advisory": "iOS 27 and iPadOS 27",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later",
+    "component": "Apple Account",
+    "date": "2026-09-14",
+    "description": "An authentication issue was addressed with improved state management.",
+    "impact": "An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account",
+    "url": "https://support.apple.com/en-us/149034"
+   },
+   {
+    "advisory": "macOS Golden Gate 27",
+    "available_for": "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)",
+    "component": "Apple Account",
+    "date": "2026-09-14",
+    "description": "An authentication issue was addressed with improved state management.",
+    "impact": "An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account",
+    "url": "https://support.apple.com/en-us/149035"
+   },
+   {
+    "advisory": "visionOS 27",
+    "available_for": "Apple Vision Pro (all models)",
+    "component": "Apple Account",
+    "date": "2026-09-14",
+    "description": "An authentication issue was addressed with improved state management.",
+    "impact": "An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account",
+    "url": "https://support.apple.com/en-us/149038"
+   },
+   {
+    "advisory": "macOS Tahoe 26.7",
+    "available_for": "macOS Tahoe",
+    "component": "Apple Account",
+    "date": "2026-09-14",
+    "description": "An authentication issue was addressed with improved state management.",
+    "impact": "An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account",
+    "url": "https://support.apple.com/en-us/149042"
+   },
+   {
+    "advisory": "macOS Sequoia 15.8",
+    "available_for": "macOS Sequoia",
+    "component": "Apple Account",
+    "date": "2026-09-14",
+    "description": "An authentication issue was addressed with improved state management.",
+    "impact": "An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account",
+    "url": "https://support.apple.com/en-us/149043"
+   }
+  ],
+  "platforms": [
+   "iOS",
+   "iPadOS",
+   "macOS",
+   "visionOS"
+  ],
+  "reported": null,
+  "research": [],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-20683"
+ },
+ {
+  "campaigns": [
+   {
+    "name": "DarkSword",
+    "source": "https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain"
+   }
+  ],
+  "contest": null,
+  "credits": [
+   "Google Threat Analysis Group"
+  ],
+  "cve": "CVE-2026-20700",
+  "cvss": 7.8,
+  "exploited": true,
+  "first_fixed": "2026-02-11",
+  "fixes": [
+   {
+    "advisory": "iOS 26.3 and iPadOS 26.3",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+    "component": "dyld",
+    "date": "2026-02-11",
+    "description": "A memory corruption issue was addressed with improved state management.",
+    "impact": "An attacker with memory write capability may be able to execute arbitrary code. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.",
+    "url": "https://support.apple.com/en-us/126346"
+   },
+   {
+    "advisory": "macOS Tahoe 26.3",
+    "available_for": "macOS Tahoe",
+    "component": "dyld",
+    "date": "2026-02-11",
+    "description": "A memory corruption issue was addressed with improved state management.",
+    "impact": "An attacker with memory write capability may be able to execute arbitrary code. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.",
+    "url": "https://support.apple.com/en-us/126348"
+   },
+   {
+    "advisory": "tvOS 26.3",
+    "available_for": "Apple TV HD and Apple TV 4K (all models)",
+    "component": "dyld",
+    "date": "2026-02-11",
+    "description": "A memory corruption issue was addressed with improved state management.",
+    "impact": "An attacker with memory write capability may be able to execute arbitrary code. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.",
+    "url": "https://support.apple.com/en-us/126351"
+   },
+   {
+    "advisory": "watchOS 26.3",
+    "available_for": "Apple Watch Series 6 and later",
+    "component": "dyld",
+    "date": "2026-02-11",
+    "description": "A memory corruption issue was addressed with improved state management.",
+    "impact": "An attacker with memory write capability may be able to execute arbitrary code. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.",
+    "url": "https://support.apple.com/en-us/126352"
+   },
+   {
+    "advisory": "visionOS 26.3",
+    "available_for": "Apple Vision Pro (all models)",
+    "component": "dyld",
+    "date": "2026-02-11",
+    "description": "A memory corruption issue was addressed with improved state management.",
+    "impact": "An attacker with memory write capability may be able to execute arbitrary code. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 and CVE-2025-43529 were also issued in response to this report.",
+    "url": "https://support.apple.com/en-us/126353"
+   }
+  ],
+  "platforms": [
+   "iOS",
+   "iPadOS",
+   "macOS",
+   "tvOS",
+   "visionOS",
+   "watchOS"
+  ],
+  "reported": null,
+  "research": [
+   {
+    "kind": "poc",
+    "title": "CVE-2026-20700",
+    "url": "https://github.com/R3n3r0/CVE-2026-20700"
+   },
+   {
+    "kind": "poc",
+    "title": "CVE-2026-20700-POC-that-ll-never-work",
+    "url": "https://github.com/notthemystery/CVE-2026-20700-POC-that-ll-never-work"
+   }
+  ],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-20700"
+ },
+ {
+  "campaigns": [],
+  "contest": null,
+  "credits": [
+   "Kraken Cryptocurrency Exchange, Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs",
+   "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs, Kraken Cryptocurrency Exchange"
+  ],
+  "cve": "CVE-2026-28899",
+  "cvss": 5.5,
+  "exploited": false,
+  "first_fixed": "2026-07-27",
+  "fixes": [
+   {
+    "advisory": "macOS Tahoe 26.6",
+    "available_for": "macOS Tahoe",
+    "component": "CoreServices",
+    "date": "2026-07-27",
+    "description": "A logic issue was addressed with improved checks.",
+    "impact": "An app may bypass Gatekeeper checks",
+    "url": "https://support.apple.com/en-us/128067"
+   },
+   {
+    "advisory": "macOS Golden Gate 27",
+    "available_for": "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)",
+    "component": "WebDAV",
+    "date": "2026-09-14",
+    "description": "A logic issue was addressed with improved checks.",
+    "impact": "An app may bypass Gatekeeper checks",
+    "url": "https://support.apple.com/en-us/149035"
+   },
+   {
+    "advisory": "macOS Tahoe 26.7",
+    "available_for": "macOS Tahoe",
+    "component": "CoreServices",
+    "date": "2026-09-14",
+    "description": "A logic issue was addressed with improved checks.",
+    "impact": "An app may bypass Gatekeeper checks",
+    "url": "https://support.apple.com/en-us/149042"
+   },
+   {
+    "advisory": "macOS Sequoia 15.8",
+    "available_for": "macOS Sequoia",
+    "component": "WebDAV",
+    "date": "2026-09-14",
+    "description": "A logic issue was addressed with improved checks.",
+    "impact": "An app may bypass Gatekeeper checks",
+    "url": "https://support.apple.com/en-us/149043"
+   }
+  ],
+  "platforms": [
+   "macOS"
+  ],
+  "reported": null,
+  "research": [],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-28899"
+ },
+ {
+  "campaigns": [],
+  "contest": null,
+  "credits": [
+   "Arni Hardarson (Neonix Security), Tristan Madani (@TristanInSec) from Talence Security, 정우 하, Aswin Kumar Gokulakannan, Peter Malone, Dun"
+  ],
+  "cve": "CVE-2026-28934",
+  "cvss": 6.5,
+  "exploited": false,
+  "first_fixed": "2026-09-14",
+  "fixes": [
+   {
+    "advisory": "macOS Golden Gate 27",
+    "available_for": "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)",
+    "component": "HFS",
+    "date": "2026-09-14",
+    "description": "A buffer overflow was addressed with improved bounds checking.",
+    "impact": "Mounting a malicious disk image may cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149035"
+   },
+   {
+    "advisory": "macOS Tahoe 26.7",
+    "available_for": "macOS Tahoe",
+    "component": "HFS",
+    "date": "2026-09-14",
+    "description": "A buffer overflow was addressed with improved bounds checking.",
+    "impact": "Mounting a malicious disk image may cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149042"
+   },
+   {
+    "advisory": "macOS Sequoia 15.8",
+    "available_for": "macOS Sequoia",
+    "component": "HFS",
+    "date": "2026-09-14",
+    "description": "A buffer overflow was addressed with improved bounds checking.",
+    "impact": "Mounting a malicious disk image may cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149043"
+   }
+  ],
+  "platforms": [
+   "macOS"
+  ],
+  "reported": null,
+  "research": [],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-28934"
+ },
+ {
+  "campaigns": [],
+  "contest": null,
+  "credits": [
+   "stratan (@5tratan)"
+  ],
+  "cve": "CVE-2026-28966",
+  "cvss": 4.3,
+  "exploited": false,
+  "first_fixed": "2026-09-14",
+  "fixes": [
+   {
+    "advisory": "iOS 27 and iPadOS 27",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later",
+    "component": "RealityKit",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+    "url": "https://support.apple.com/en-us/149034"
+   },
+   {
+    "advisory": "macOS Golden Gate 27",
+    "available_for": "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)",
+    "component": "RealityKit",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+    "url": "https://support.apple.com/en-us/149035"
+   },
+   {
+    "advisory": "tvOS 27",
+    "available_for": "Apple TV 4K 2nd generation and later",
+    "component": "RealityKit",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+    "url": "https://support.apple.com/en-us/149036"
+   },
+   {
+    "advisory": "visionOS 27",
+    "available_for": "Apple Vision Pro (all models)",
+    "component": "RealityKit",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+    "url": "https://support.apple.com/en-us/149038"
+   },
+   {
+    "advisory": "iOS 26.7 and iPadOS 26.7",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+    "component": "RealityKit",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+    "url": "https://support.apple.com/en-us/149041"
+   },
+   {
+    "advisory": "macOS Tahoe 26.7",
+    "available_for": "macOS Tahoe",
+    "component": "RealityKit",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+    "url": "https://support.apple.com/en-us/149042"
+   },
+   {
+    "advisory": "macOS Sequoia 15.8",
+    "available_for": "macOS Sequoia",
+    "component": "RealityKit",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+    "url": "https://support.apple.com/en-us/149043"
+   }
+  ],
+  "platforms": [
+   "iOS",
+   "iPadOS",
+   "macOS",
+   "tvOS",
+   "visionOS"
+  ],
+  "reported": null,
+  "research": [],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-28966"
+ },
+ {
+  "campaigns": [],
+  "contest": null,
+  "credits": [
+   "genter0, Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, Dun",
+   "Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, genter0, Dun"
+  ],
+  "cve": "CVE-2026-28968",
+  "cvss": 5.5,
+  "exploited": false,
+  "first_fixed": "2026-09-14",
+  "fixes": [
+   {
+    "advisory": "iOS 27 and iPadOS 27",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149034"
+   },
+   {
+    "advisory": "macOS Golden Gate 27",
+    "available_for": "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149035"
+   },
+   {
+    "advisory": "tvOS 27",
+    "available_for": "Apple TV 4K 2nd generation and later",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149036"
+   },
+   {
+    "advisory": "watchOS 27",
+    "available_for": "Apple Watch Series 9 and later",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149037"
+   },
+   {
+    "advisory": "visionOS 27",
+    "available_for": "Apple Vision Pro (all models)",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149038"
+   },
+   {
+    "advisory": "iOS 26.7 and iPadOS 26.7",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149041"
+   },
+   {
+    "advisory": "macOS Tahoe 26.7",
+    "available_for": "macOS Tahoe",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149042"
+   },
+   {
+    "advisory": "macOS Sequoia 15.8",
+    "available_for": "macOS Sequoia",
+    "component": "Kernel",
+    "date": "2026-09-14",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+    "url": "https://support.apple.com/en-us/149043"
+   }
+  ],
+  "platforms": [
+   "iOS",
+   "iPadOS",
+   "macOS",
+   "tvOS",
+   "visionOS",
+   "watchOS"
+  ],
+  "reported": null,
+  "research": [],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-28968"
+ },
+ {
+  "campaigns": [],
+  "contest": null,
+  "credits": [
+   "Mihalis Haatainen, Ari Hawking, Ashish Kunwar",
+   "Mihalis Haatainen, Ashish Kunwar, Ari Hawking, 이재영"
+  ],
+  "cve": "CVE-2026-28969",
+  "cvss": 7.5,
+  "exploited": false,
+  "first_fixed": "2026-05-11",
+  "fixes": [
+   {
+    "advisory": "iOS 26.5 and iPadOS 26.5",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127110"
+   },
+   {
+    "advisory": "iOS 18.7.9 and iPadOS 18.7.9",
+    "available_for": "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127111"
+   },
+   {
+    "advisory": "macOS Tahoe 26.5",
+    "available_for": "macOS Tahoe",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127115"
+   },
+   {
+    "advisory": "macOS Sequoia 15.7.7",
+    "available_for": "macOS Sequoia",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127116"
+   },
+   {
+    "advisory": "macOS Sonoma 14.8.7",
+    "available_for": "macOS Sonoma",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127117"
+   },
+   {
+    "advisory": "tvOS 26.5",
+    "available_for": "Apple TV HD and Apple TV 4K (all models)",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127118"
+   },
+   {
+    "advisory": "watchOS 26.5",
+    "available_for": "Apple Watch Series 6 and later",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127119"
+   },
+   {
+    "advisory": "visionOS 26.5",
+    "available_for": "Apple Vision Pro (all models)",
+    "component": "IOKit",
+    "date": "2026-05-11",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/127120"
+   },
+   {
+    "advisory": "iOS 27 and iPadOS 27",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later",
+    "component": "IOKit",
+    "date": "2026-09-14",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149034"
+   },
+   {
+    "advisory": "macOS Golden Gate 27",
+    "available_for": "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)",
+    "component": "IOKit",
+    "date": "2026-09-14",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149035"
+   },
+   {
+    "advisory": "tvOS 27",
+    "available_for": "Apple TV 4K 2nd generation and later",
+    "component": "IOKit",
+    "date": "2026-09-14",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149036"
+   },
+   {
+    "advisory": "watchOS 27",
+    "available_for": "Apple Watch Series 9 and later",
+    "component": "IOKit",
+    "date": "2026-09-14",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149037"
+   },
+   {
+    "advisory": "visionOS 27",
+    "available_for": "Apple Vision Pro (all models)",
+    "component": "IOKit",
+    "date": "2026-09-14",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149038"
+   },
+   {
+    "advisory": "macOS Tahoe 26.7",
+    "available_for": "macOS Tahoe",
+    "component": "IOKit",
+    "date": "2026-09-14",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149042"
+   },
+   {
+    "advisory": "macOS Sequoia 15.8",
+    "available_for": "macOS Sequoia",
+    "component": "IOKit",
+    "date": "2026-09-14",
+    "description": "A use after free issue was addressed with improved memory management.",
+    "impact": "An app may be able to cause unexpected system termination",
+    "url": "https://support.apple.com/en-us/149043"
+   }
+  ],
+  "platforms": [
+   "iOS",
+   "iPadOS",
+   "macOS",
+   "tvOS",
+   "visionOS",
+   "watchOS"
+  ],
+  "reported": null,
+  "research": [],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-28969"
+ },
+ {
+  "campaigns": [],
+  "contest": null,
+  "credits": [
+   "Meta Product Security"
+  ],
+  "cve": "CVE-2026-86950",
+  "cvss": 8.8,
+  "exploited": true,
+  "first_fixed": "2026-09-28",
+  "fixes": [
+   {
+    "advisory": "iOS 26.7.1 and iPadOS 26.7.1",
+    "available_for": "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later",
+    "component": "CoreGraphics",
+    "date": "2026-09-28",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.",
+    "url": "https://support.apple.com/en-us/149226"
+   },
+   {
+    "advisory": "macOS Tahoe 26.7.1",
+    "available_for": "macOS Tahoe",
+    "component": "CoreGraphics",
+    "date": "2026-09-28",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.",
+    "url": "https://support.apple.com/en-us/149228"
+   },
+   {
+    "advisory": "macOS Sequoia 15.8.1",
+    "available_for": "macOS Sequoia",
+    "component": "CoreGraphics",
+    "date": "2026-09-28",
+    "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+    "impact": "Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.",
+    "url": "https://support.apple.com/en-us/149229"
+   }
+  ],
+  "platforms": [
+   "iOS",
+   "iPadOS",
+   "macOS"
+  ],
+  "reported": null,
+  "research": [
+   {
+    "kind": "poc",
+    "title": "Runtime exploit monitor for Apple document/image pipelines (iOS/macOS) — EXPMON concept: Frida agent + behavioral rules. First target: the CVE-2026-86950 glyph chain.",
+    "url": "https://github.com/msuiche/hotcell"
+   },
+   {
+    "kind": "writeup",
+    "title": "CVE-2026-86950: The Great Glyph Grift | Calif",
+    "url": "https://calif.io/research/the-great-glyph-grift"
+   },
+   {
+    "kind": "writeup",
+    "title": "Attackers Wielding DarkSword Threaten iOS Users | Threat Intel",
+    "url": "https://www.lookout.com/threat-intelligence/article/darksword"
+   }
+  ],
+  "url": "https://apple-cve.com/cve/2026.html#CVE-2026-86950"
+ }
+]

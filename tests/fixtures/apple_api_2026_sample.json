@@ -3,8 +3,8 @@
   "campaigns": [],
   "contest": null,
   "credits": [
-   "Dem0ns (@天府简易信工作室), Abdelhak Kherroubi, Jasminder Pal Singh, Lehan Dilusha Jayasingha (Sri Lanka)",
-   "Lehan Dilusha Jayasingha (Sri Lanka), Jasminder Pal Singh, Dem0ns (@天府简易信工作室), Abdelhak Kherroubi"
+   "Dem0ns (@\u5929\u5e9c\u7b80\u6613\u4fe1\u5de5\u4f5c\u5ba4), Abdelhak Kherroubi, Jasminder Pal Singh, Lehan Dilusha Jayasingha (Sri Lanka)",
+   "Lehan Dilusha Jayasingha (Sri Lanka), Jasminder Pal Singh, Dem0ns (@\u5929\u5e9c\u7b80\u6613\u4fe1\u5de5\u4f5c\u5ba4), Abdelhak Kherroubi"
   ],
   "cve": "CVE-2026-20683",
   "cvss": 7.1,
@@ -212,7 +212,7 @@
   "campaigns": [],
   "contest": null,
   "credits": [
-   "Arni Hardarson (Neonix Security), Tristan Madani (@TristanInSec) from Talence Security, 정우 하, Aswin Kumar Gokulakannan, Peter Malone, Dun"
+   "Arni Hardarson (Neonix Security), Tristan Madani (@TristanInSec) from Talence Security, \uc815\uc6b0 \ud558, Aswin Kumar Gokulakannan, Peter Malone, Dun"
   ],
   "cve": "CVE-2026-28934",
   "cvss": 6.5,
@@ -442,7 +442,7 @@
   "contest": null,
   "credits": [
    "Mihalis Haatainen, Ari Hawking, Ashish Kunwar",
-   "Mihalis Haatainen, Ashish Kunwar, Ari Hawking, 이재영"
+   "Mihalis Haatainen, Ashish Kunwar, Ari Hawking, \uc774\uc7ac\uc601"
   ],
   "cve": "CVE-2026-28969",
   "cvss": 7.5,
@@ -645,7 +645,7 @@
   "research": [
    {
     "kind": "poc",
-    "title": "Runtime exploit monitor for Apple document/image pipelines (iOS/macOS) — EXPMON concept: Frida agent + behavioral rules. First target: the CVE-2026-86950 glyph chain.",
+    "title": "Runtime exploit monitor for Apple document/image pipelines (iOS/macOS) \u2014 EXPMON concept: Frida agent + behavioral rules. First target: the CVE-2026-86950 glyph chain.",
     "url": "https://github.com/msuiche/hotcell"
    },
    {
